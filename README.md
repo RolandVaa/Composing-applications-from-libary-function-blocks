@@ -24,3 +24,6 @@ In this lab:
 - EcoStruxure Automation Expert / soft PLC runtime  
 - Multi-device deployment configuration
 
+![Basic Application](images/APP1.png)
+![Adapter Connections](images/APP2.png)
+![Bi-Directional Adapter](images/APP3.png)
