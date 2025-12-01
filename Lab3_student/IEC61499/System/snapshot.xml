@@ -1,0 +1,565 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<baseline xmlns:xsd="http://www.nxtControl.com/Snapshot" xmlns="http://tempuri.org/XMLSchema1.xsd">
+  <snapshot guid="{B945F142-CF4B-4114-89DC-C7755C3D9C86}" compiler="Default" created="2023-11-05T19:25:54" base="{00000000-0000-0000-0000-000000000000}">
+    <DeployInformation Type="Working">
+      <FileGroup Name="FileList" xmlns="http://tempuri.org/DeploySnapshot.xsd">
+        <LibraryItem Name="Runtime.Base" Version="22.1.0.17" />
+        <LibraryItem Name="SE.DPAC" Version="22.1.0.24" />
+        <LibraryItem Name="SE.Standard" Version="22.1.0.9" />
+        <DeviceItem ID="2e2f39c5-8c49-4381-8a71-a9e62b9c8b65" Hash="123061CB297C35D6E" />
+      </FileGroup>
+      <Device Name="DEV1" ID="2e2f39c5-8c49-4381-8a71-a9e62b9c8b65" xmlns="http://tempuri.org/DeploySnapshot.xsd">
+        <FileItem Name="Basics/Main#CylControl.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#Valve_HMI.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#Valve.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#Sensor_HMI.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Basics/Main#InRange.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#Sensor.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Basics/Main#integEC.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Basics/Main#ChangeDetect.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#HCylinder_HMI.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#HCylinder.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#HCylinderSA.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Basics/Main#ValveControl.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Basics/Main#ConvertToForce.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#HCylinderLS.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#BUTTON_HMI.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#PULSE.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#BUTTON.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#VCylinder_HMI.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#VCylinder.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#VCylinderSA.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#VCylinderLS.bin">
+          <Changed>true</Changed>
+        </FileItem>
+      </Device>
+    </DeployInformation>
+  </snapshot>
+  <snapshot guid="{0813B793-F1C7-490A-B034-3EB6189A8A2D}" compiler="Default" created="2023-11-05T19:28:56" base="{00000000-0000-0000-0000-000000000000}">
+    <DeployInformation Type="Working">
+      <FileGroup Name="FileList" xmlns="http://tempuri.org/DeploySnapshot.xsd">
+        <FileItem Name="Main#CROSSCOMM_PEER_195C19FF067434822.bin" Library="IEC61499.exe" BuildSnapshot="{B945F142-CF4B-4114-89DC-C7755C3D9C86}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+          <Modified>2023-11-05T19:28:35</Modified>
+          <Hash>195C19FF067434822</Hash>
+        </FileItem>
+        <FileItem Name="Main#CROSSCOMM_PEER_7809690FA4BAE57E.bin" Library="IEC61499.exe" BuildSnapshot="{B945F142-CF4B-4114-89DC-C7755C3D9C86}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+          <Modified>2023-11-05T19:28:35</Modified>
+          <Hash>7809690FA4BAE57E</Hash>
+        </FileItem>
+        <FileItem Name="Main#CROSSCOMM_SENDER_2210DD10965A92ADC.bin" Library="IEC61499.exe" BuildSnapshot="{B945F142-CF4B-4114-89DC-C7755C3D9C86}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+          <Modified>2023-11-05T19:28:36</Modified>
+          <Hash>2210DD10965A92ADC</Hash>
+        </FileItem>
+        <FileItem Name="Main#CROSSCOMM_SENDER_45FE03D7848F2EB2.bin" Library="IEC61499.exe" BuildSnapshot="{B945F142-CF4B-4114-89DC-C7755C3D9C86}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+          <Modified>2023-11-05T19:28:36</Modified>
+          <Hash>45FE03D7848F2EB2</Hash>
+        </FileItem>
+        <LibraryItem Name="Runtime.Base" Version="22.1.0.17" />
+        <LibraryItem Name="SE.DPAC" Version="22.1.0.24" />
+        <LibraryItem Name="SE.Standard" Version="22.1.0.9" />
+        <DeviceItem ID="2e2f39c5-8c49-4381-8a71-a9e62b9c8b65" Hash="214979ACD71F4C7AB" />
+      </FileGroup>
+      <Device Name="DEV1" ID="2e2f39c5-8c49-4381-8a71-a9e62b9c8b65" xmlns="http://tempuri.org/DeploySnapshot.xsd">
+        <FileItem Name="Basics/Main#CylControl.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#Valve_HMI.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#Valve.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#Sensor_HMI.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Basics/Main#InRange.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#Sensor.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Basics/Main#integEC.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Basics/Main#ChangeDetect.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#HCylinder_HMI.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#HCylinder.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#HCylinderSA.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Basics/Main#ValveControl.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Basics/Main#ConvertToForce.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#HCylinderLS.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#BUTTON_HMI.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#PULSE.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#BUTTON.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Basics/Main#CROSSCOMM_SENDER_2210DD10965A92ADC.bin" />
+        <FileItem Name="Basics/Main#CROSSCOMM_SENDER_45FE03D7848F2EB2.bin" />
+      </Device>
+    </DeployInformation>
+  </snapshot>
+  <snapshot guid="{2A602770-3EA0-4378-A920-214B782EE37E}" compiler="Default" created="2023-11-05T19:28:56" base="{00000000-0000-0000-0000-000000000000}">
+    <DeployInformation Type="Working">
+      <FileGroup Name="FileList" xmlns="http://tempuri.org/DeploySnapshot.xsd">
+        <FileItem Name="Main#CROSSCOMM_PEER_195C19FF067434822.bin" Library="IEC61499.exe" BuildSnapshot="{B945F142-CF4B-4114-89DC-C7755C3D9C86}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+          <Modified>2023-11-05T19:28:35</Modified>
+          <Hash>195C19FF067434822</Hash>
+        </FileItem>
+        <FileItem Name="Main#CROSSCOMM_PEER_7809690FA4BAE57E.bin" Library="IEC61499.exe" BuildSnapshot="{B945F142-CF4B-4114-89DC-C7755C3D9C86}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+          <Modified>2023-11-05T19:28:35</Modified>
+          <Hash>7809690FA4BAE57E</Hash>
+        </FileItem>
+        <FileItem Name="Main#CROSSCOMM_SENDER_2210DD10965A92ADC.bin" Library="IEC61499.exe" BuildSnapshot="{B945F142-CF4B-4114-89DC-C7755C3D9C86}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+          <Modified>2023-11-05T19:28:36</Modified>
+          <Hash>2210DD10965A92ADC</Hash>
+        </FileItem>
+        <FileItem Name="Main#CROSSCOMM_SENDER_45FE03D7848F2EB2.bin" Library="IEC61499.exe" BuildSnapshot="{B945F142-CF4B-4114-89DC-C7755C3D9C86}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+          <Modified>2023-11-05T19:28:36</Modified>
+          <Hash>45FE03D7848F2EB2</Hash>
+        </FileItem>
+        <LibraryItem Name="Runtime.Base" Version="22.1.0.17" />
+        <LibraryItem Name="SE.DPAC" Version="22.1.0.24" />
+        <LibraryItem Name="SE.Standard" Version="22.1.0.9" />
+        <DeviceItem ID="0003707f-80c8-4e3c-839b-2f7dea35bce4" Hash="465D99130854F617" />
+      </FileGroup>
+      <Device Name="DEV2" ID="0003707f-80c8-4e3c-839b-2f7dea35bce4" xmlns="http://tempuri.org/DeploySnapshot.xsd">
+        <FileItem Name="Basics/Main#CylControl.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Basics/Main#ValveControl.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Basics/Main#ConvertToForce.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#Valve_HMI.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#Valve.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#Sensor_HMI.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Basics/Main#InRange.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#Sensor.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#VCylinder_HMI.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Basics/Main#integEC.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Basics/Main#ChangeDetect.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#VCylinder.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#VCylinderSA.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#VCylinderLS.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Basics/Main#CROSSCOMM_PEER_7809690FA4BAE57E.bin" />
+        <FileItem Name="Basics/Main#CROSSCOMM_PEER_195C19FF067434822.bin" />
+      </Device>
+    </DeployInformation>
+  </snapshot>
+  <snapshot guid="{3695BEF5-A340-4660-9E6C-36F8CEA4C62C}" compiler="Default" created="2023-11-05T19:51:24" base="{00000000-0000-0000-0000-000000000000}">
+    <DeployInformation Type="Working">
+      <FileGroup Name="FileList" xmlns="http://tempuri.org/DeploySnapshot.xsd">
+        <FileItem Name="Main#CROSSCOMM_PEER_195C19FF067434822.bin" Library="IEC61499.exe" BuildSnapshot="{B945F142-CF4B-4114-89DC-C7755C3D9C86}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+          <Modified>2023-11-05T19:28:35</Modified>
+          <Hash>195C19FF067434822</Hash>
+        </FileItem>
+        <FileItem Name="Main#CROSSCOMM_PEER_7809690FA4BAE57E.bin" Library="IEC61499.exe" BuildSnapshot="{B945F142-CF4B-4114-89DC-C7755C3D9C86}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+          <Modified>2023-11-05T19:28:35</Modified>
+          <Hash>7809690FA4BAE57E</Hash>
+        </FileItem>
+        <FileItem Name="Main#CROSSCOMM_SENDER_2210DD10965A92ADC.bin" Library="IEC61499.exe" BuildSnapshot="{B945F142-CF4B-4114-89DC-C7755C3D9C86}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+          <Modified>2023-11-05T19:28:36</Modified>
+          <Hash>2210DD10965A92ADC</Hash>
+        </FileItem>
+        <FileItem Name="Main#CROSSCOMM_SENDER_45FE03D7848F2EB2.bin" Library="IEC61499.exe" BuildSnapshot="{B945F142-CF4B-4114-89DC-C7755C3D9C86}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+          <Modified>2023-11-05T19:28:36</Modified>
+          <Hash>45FE03D7848F2EB2</Hash>
+        </FileItem>
+        <FileItem Name="Main#COMM_ADAPTER_PLUG_PROXY_137D8FA9F791DEABB.bin" Library="IEC61499.exe" BuildSnapshot="{7840818E-EE8C-4C48-869E-9C550E8CFEE7}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+          <Modified>2023-11-05T19:51:09</Modified>
+          <Hash>137D8FA9F791DEABB</Hash>
+        </FileItem>
+        <FileItem Name="Main#COMM_ADAPTER_SOCKET_PROXY_79152C3CB22C3086.bin" Library="IEC61499.exe" BuildSnapshot="{7840818E-EE8C-4C48-869E-9C550E8CFEE7}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+          <Modified>2023-11-05T19:51:09</Modified>
+          <Hash>79152C3CB22C3086</Hash>
+        </FileItem>
+        <LibraryItem Name="Runtime.Base" Version="22.1.0.17" />
+        <LibraryItem Name="SE.DPAC" Version="22.1.0.24" />
+        <LibraryItem Name="SE.Standard" Version="22.1.0.9" />
+        <DeviceItem ID="9330e2a3-4d1f-4358-91c9-1d08404982de" Hash="90455F0716FBC791" />
+      </FileGroup>
+      <Device Name="DEV3" ID="9330e2a3-4d1f-4358-91c9-1d08404982de" xmlns="http://tempuri.org/DeploySnapshot.xsd">
+        <FileItem Name="Composites/Main#BUTTON_HMI.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#PULSE.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#BUTTON.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Adapters/Main#BoolAdp.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#BUTTONAdp.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Basics/Main#CylControl.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Adapters/Main#AdapterCyl.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#CylControlAdp.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#Valve_HMI.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#Valve.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#Sensor_HMI.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Basics/Main#InRange.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#Sensor.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Basics/Main#integEC.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Basics/Main#ChangeDetect.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#HCylinder_HMI.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#HCylinder.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#HCylinderSA.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Basics/Main#ValveControl.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Basics/Main#ConvertToForce.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#HCylinderLS.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#HCylAdp.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#COMM_ADAPTER_SOCKET_PROXY_79152C3CB22C3086.bin" />
+      </Device>
+    </DeployInformation>
+  </snapshot>
+  <snapshot guid="{7D394B52-AFE4-48DB-9311-614DC7415152}" compiler="Default" created="2023-11-05T19:51:24" base="{00000000-0000-0000-0000-000000000000}">
+    <DeployInformation Type="Working">
+      <FileGroup Name="FileList" xmlns="http://tempuri.org/DeploySnapshot.xsd">
+        <FileItem Name="Main#CROSSCOMM_PEER_195C19FF067434822.bin" Library="IEC61499.exe" BuildSnapshot="{B945F142-CF4B-4114-89DC-C7755C3D9C86}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+          <Modified>2023-11-05T19:28:35</Modified>
+          <Hash>195C19FF067434822</Hash>
+        </FileItem>
+        <FileItem Name="Main#CROSSCOMM_PEER_7809690FA4BAE57E.bin" Library="IEC61499.exe" BuildSnapshot="{B945F142-CF4B-4114-89DC-C7755C3D9C86}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+          <Modified>2023-11-05T19:28:35</Modified>
+          <Hash>7809690FA4BAE57E</Hash>
+        </FileItem>
+        <FileItem Name="Main#CROSSCOMM_SENDER_2210DD10965A92ADC.bin" Library="IEC61499.exe" BuildSnapshot="{B945F142-CF4B-4114-89DC-C7755C3D9C86}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+          <Modified>2023-11-05T19:28:36</Modified>
+          <Hash>2210DD10965A92ADC</Hash>
+        </FileItem>
+        <FileItem Name="Main#CROSSCOMM_SENDER_45FE03D7848F2EB2.bin" Library="IEC61499.exe" BuildSnapshot="{B945F142-CF4B-4114-89DC-C7755C3D9C86}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+          <Modified>2023-11-05T19:28:36</Modified>
+          <Hash>45FE03D7848F2EB2</Hash>
+        </FileItem>
+        <FileItem Name="Main#COMM_ADAPTER_PLUG_PROXY_137D8FA9F791DEABB.bin" Library="IEC61499.exe" BuildSnapshot="{7840818E-EE8C-4C48-869E-9C550E8CFEE7}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+          <Modified>2023-11-05T19:51:09</Modified>
+          <Hash>137D8FA9F791DEABB</Hash>
+        </FileItem>
+        <FileItem Name="Main#COMM_ADAPTER_SOCKET_PROXY_79152C3CB22C3086.bin" Library="IEC61499.exe" BuildSnapshot="{7840818E-EE8C-4C48-869E-9C550E8CFEE7}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+          <Modified>2023-11-05T19:51:09</Modified>
+          <Hash>79152C3CB22C3086</Hash>
+        </FileItem>
+        <LibraryItem Name="Runtime.Base" Version="22.1.0.17" />
+        <LibraryItem Name="SE.DPAC" Version="22.1.0.24" />
+        <LibraryItem Name="SE.Standard" Version="22.1.0.9" />
+        <DeviceItem ID="2b8dd333-de43-4661-9606-d53568bd0989" Hash="252CC86DDC5C0644" />
+      </FileGroup>
+      <Device Name="DEV4" ID="2b8dd333-de43-4661-9606-d53568bd0989" xmlns="http://tempuri.org/DeploySnapshot.xsd">
+        <FileItem Name="Basics/Main#CylControl.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Adapters/Main#AdapterCyl.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Adapters/Main#BoolAdp.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#CylControlAdp.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Basics/Main#ValveControl.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Basics/Main#ConvertToForce.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#Valve_HMI.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#Valve.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#Sensor_HMI.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Basics/Main#InRange.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#Sensor.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#VCylinder_HMI.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Basics/Main#integEC.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Basics/Main#ChangeDetect.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#VCylinder.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#VCylinderSA.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#VCylinderLS.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#VCylAdp.bin">
+          <Changed>true</Changed>
+        </FileItem>
+        <FileItem Name="Composites/Main#COMM_ADAPTER_PLUG_PROXY_137D8FA9F791DEABB.bin" />
+      </Device>
+    </DeployInformation>
+  </snapshot>
+  <snapshot guid="{CDA58497-10F6-4680-9692-2A9074628567}" compiler="Default" created="2023-11-05T20:00:44" base="{00000000-0000-0000-0000-000000000000}">
+    <DeployInformation Type="Working">
+      <FileGroup Name="FileList" xmlns="http://tempuri.org/DeploySnapshot.xsd">
+        <FileItem Name="Main#CROSSCOMM_PEER_195C19FF067434822.bin" Library="IEC61499.exe" BuildSnapshot="{B945F142-CF4B-4114-89DC-C7755C3D9C86}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+          <Modified>2023-11-05T19:28:35</Modified>
+          <Hash>195C19FF067434822</Hash>
+        </FileItem>
+        <FileItem Name="Main#CROSSCOMM_PEER_7809690FA4BAE57E.bin" Library="IEC61499.exe" BuildSnapshot="{B945F142-CF4B-4114-89DC-C7755C3D9C86}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+          <Modified>2023-11-05T19:28:35</Modified>
+          <Hash>7809690FA4BAE57E</Hash>
+        </FileItem>
+        <FileItem Name="Main#CROSSCOMM_SENDER_2210DD10965A92ADC.bin" Library="IEC61499.exe" BuildSnapshot="{B945F142-CF4B-4114-89DC-C7755C3D9C86}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+          <Modified>2023-11-05T19:28:36</Modified>
+          <Hash>2210DD10965A92ADC</Hash>
+        </FileItem>
+        <FileItem Name="Main#CROSSCOMM_SENDER_45FE03D7848F2EB2.bin" Library="IEC61499.exe" BuildSnapshot="{B945F142-CF4B-4114-89DC-C7755C3D9C86}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+          <Modified>2023-11-05T19:28:36</Modified>
+          <Hash>45FE03D7848F2EB2</Hash>
+        </FileItem>
+        <FileItem Name="Main#COMM_ADAPTER_PLUG_PROXY_137D8FA9F791DEABB.bin" Library="IEC61499.exe" BuildSnapshot="{7840818E-EE8C-4C48-869E-9C550E8CFEE7}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+          <Modified>2023-11-05T19:51:09</Modified>
+          <Hash>137D8FA9F791DEABB</Hash>
+        </FileItem>
+        <FileItem Name="Main#COMM_ADAPTER_SOCKET_PROXY_79152C3CB22C3086.bin" Library="IEC61499.exe" BuildSnapshot="{7840818E-EE8C-4C48-869E-9C550E8CFEE7}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+          <Modified>2023-11-05T19:51:09</Modified>
+          <Hash>79152C3CB22C3086</Hash>
+        </FileItem>
+        <LibraryItem Name="Runtime.Base" Version="22.1.0.17" />
+        <LibraryItem Name="SE.DPAC" Version="22.1.0.24" />
+        <LibraryItem Name="SE.Standard" Version="22.1.0.9" />
+        <DeviceItem ID="9dfb4721-59db-4a36-9188-0c797f5dddb4" Hash="17382F86B0E388863" />
+      </FileGroup>
+      <Device Name="DEV5" ID="9dfb4721-59db-4a36-9188-0c797f5dddb4" xmlns="http://tempuri.org/DeploySnapshot.xsd">
+        <FileItem Name="Composites/Main#BUTTON_HMI.bin" />
+        <FileItem Name="Composites/Main#PULSE.bin" />
+        <FileItem Name="Composites/Main#BUTTON.bin" />
+        <FileItem Name="Adapters/Main#BoolAdp.bin" />
+        <FileItem Name="Composites/Main#BUTTONAdp.bin" />
+        <FileItem Name="Basics/Main#CylControl.bin" />
+        <FileItem Name="Adapters/Main#AdapterCyl.bin" />
+        <FileItem Name="Composites/Main#CylControlAdpOL.bin" />
+        <FileItem Name="Composites/Main#Valve_HMI.bin" />
+        <FileItem Name="Composites/Main#Valve.bin" />
+        <FileItem Name="Composites/Main#Sensor_HMI.bin" />
+        <FileItem Name="Basics/Main#InRange.bin" />
+        <FileItem Name="Composites/Main#Sensor.bin" />
+        <FileItem Name="Basics/Main#integEC.bin" />
+        <FileItem Name="Basics/Main#ChangeDetect.bin" />
+        <FileItem Name="Composites/Main#HCylinder_HMI.bin" />
+        <FileItem Name="Composites/Main#HCylinder.bin" />
+        <FileItem Name="Composites/Main#HCylinderSA.bin" />
+        <FileItem Name="Basics/Main#ValveControl.bin" />
+        <FileItem Name="Basics/Main#ConvertToForce.bin" />
+        <FileItem Name="Composites/Main#HCylinderLS.bin" />
+        <FileItem Name="Composites/Main#HCylAdpOL.bin" />
+        <FileItem Name="Composites/Main#COMM_ADAPTER_SOCKET_PROXY_79152C3CB22C3086.bin" />
+      </Device>
+    </DeployInformation>
+  </snapshot>
+  <snapshot guid="{D80AA4AF-F20F-4F76-BDAF-59F374A544EA}" compiler="Default" created="2023-11-05T20:00:44" base="{00000000-0000-0000-0000-000000000000}">
+    <DeployInformation Type="Working">
+      <FileGroup Name="FileList" xmlns="http://tempuri.org/DeploySnapshot.xsd">
+        <FileItem Name="Main#CROSSCOMM_PEER_195C19FF067434822.bin" Library="IEC61499.exe" BuildSnapshot="{B945F142-CF4B-4114-89DC-C7755C3D9C86}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+          <Modified>2023-11-05T19:28:35</Modified>
+          <Hash>195C19FF067434822</Hash>
+        </FileItem>
+        <FileItem Name="Main#CROSSCOMM_PEER_7809690FA4BAE57E.bin" Library="IEC61499.exe" BuildSnapshot="{B945F142-CF4B-4114-89DC-C7755C3D9C86}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+          <Modified>2023-11-05T19:28:35</Modified>
+          <Hash>7809690FA4BAE57E</Hash>
+        </FileItem>
+        <FileItem Name="Main#CROSSCOMM_SENDER_2210DD10965A92ADC.bin" Library="IEC61499.exe" BuildSnapshot="{B945F142-CF4B-4114-89DC-C7755C3D9C86}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+          <Modified>2023-11-05T19:28:36</Modified>
+          <Hash>2210DD10965A92ADC</Hash>
+        </FileItem>
+        <FileItem Name="Main#CROSSCOMM_SENDER_45FE03D7848F2EB2.bin" Library="IEC61499.exe" BuildSnapshot="{B945F142-CF4B-4114-89DC-C7755C3D9C86}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+          <Modified>2023-11-05T19:28:36</Modified>
+          <Hash>45FE03D7848F2EB2</Hash>
+        </FileItem>
+        <FileItem Name="Main#COMM_ADAPTER_PLUG_PROXY_137D8FA9F791DEABB.bin" Library="IEC61499.exe" BuildSnapshot="{7840818E-EE8C-4C48-869E-9C550E8CFEE7}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+          <Modified>2023-11-05T19:51:09</Modified>
+          <Hash>137D8FA9F791DEABB</Hash>
+        </FileItem>
+        <FileItem Name="Main#COMM_ADAPTER_SOCKET_PROXY_79152C3CB22C3086.bin" Library="IEC61499.exe" BuildSnapshot="{7840818E-EE8C-4C48-869E-9C550E8CFEE7}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+          <Modified>2023-11-05T19:51:09</Modified>
+          <Hash>79152C3CB22C3086</Hash>
+        </FileItem>
+        <LibraryItem Name="Runtime.Base" Version="22.1.0.17" />
+        <LibraryItem Name="SE.DPAC" Version="22.1.0.24" />
+        <LibraryItem Name="SE.Standard" Version="22.1.0.9" />
+        <DeviceItem ID="8719ba5e-403b-41d0-bbaf-1d2b70bccd85" Hash="68AAF3342FE7AB7D" />
+      </FileGroup>
+      <Device Name="DEV6" ID="8719ba5e-403b-41d0-bbaf-1d2b70bccd85" xmlns="http://tempuri.org/DeploySnapshot.xsd">
+        <FileItem Name="Basics/Main#CylControl.bin" />
+        <FileItem Name="Adapters/Main#BoolAdp.bin" />
+        <FileItem Name="Adapters/Main#AdapterCyl.bin" />
+        <FileItem Name="Composites/Main#CylControlAdpOL.bin" />
+        <FileItem Name="Basics/Main#ValveControl.bin" />
+        <FileItem Name="Basics/Main#ConvertToForce.bin" />
+        <FileItem Name="Composites/Main#Valve_HMI.bin" />
+        <FileItem Name="Composites/Main#Valve.bin" />
+        <FileItem Name="Composites/Main#Sensor_HMI.bin" />
+        <FileItem Name="Basics/Main#InRange.bin" />
+        <FileItem Name="Composites/Main#Sensor.bin" />
+        <FileItem Name="Composites/Main#VCylinder_HMI.bin" />
+        <FileItem Name="Basics/Main#integEC.bin" />
+        <FileItem Name="Basics/Main#ChangeDetect.bin" />
+        <FileItem Name="Composites/Main#VCylinder.bin" />
+        <FileItem Name="Composites/Main#VCylinderSA.bin" />
+        <FileItem Name="Composites/Main#VCylinderLS.bin" />
+        <FileItem Name="Composites/Main#VCylAdpOL.bin" />
+        <FileItem Name="Composites/Main#COMM_ADAPTER_PLUG_PROXY_137D8FA9F791DEABB.bin" />
+      </Device>
+    </DeployInformation>
+  </snapshot>
+  <deployment>
+    <network_profile name="(Local Test)">
+      <device id="2e2f39c5-8c49-4381-8a71-a9e62b9c8b65">
+        <sref snapshot="{0813B793-F1C7-490A-B034-3EB6189A8A2D}" state="ACTIVE_MODIFIED" />
+      </device>
+      <device id="0003707f-80c8-4e3c-839b-2f7dea35bce4">
+        <sref snapshot="{2A602770-3EA0-4378-A920-214B782EE37E}" state="ACTIVE_MODIFIED" />
+      </device>
+      <device id="2b8dd333-de43-4661-9606-d53568bd0989">
+        <sref snapshot="{7D394B52-AFE4-48DB-9311-614DC7415152}" state="ACTIVE_MODIFIED" />
+      </device>
+      <device id="9330e2a3-4d1f-4358-91c9-1d08404982de">
+        <sref snapshot="{3695BEF5-A340-4660-9E6C-36F8CEA4C62C}" state="ACTIVE_MODIFIED" />
+      </device>
+      <device id="9dfb4721-59db-4a36-9188-0c797f5dddb4">
+        <sref snapshot="{CDA58497-10F6-4680-9692-2A9074628567}" state="ACTIVE" />
+      </device>
+      <device id="8719ba5e-403b-41d0-bbaf-1d2b70bccd85">
+        <sref snapshot="{D80AA4AF-F20F-4F76-BDAF-59F374A544EA}" state="ACTIVE" />
+      </device>
+    </network_profile>
+    <network_profile name="(Default)">
+      <device id="2e2f39c5-8c49-4381-8a71-a9e62b9c8b65" />
+      <device id="0003707f-80c8-4e3c-839b-2f7dea35bce4" />
+    </network_profile>
+  </deployment>
+</baseline>

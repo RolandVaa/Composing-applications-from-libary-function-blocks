@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE FBType SYSTEM "../LibraryElement.dtd">
+<FBType GUID="044be930-7adc-47dc-ab6f-05db571a87f6" Name="CylControlILAdpOL" Comment="Composite Function Block Type" Namespace="Main">
+  <Attribute Name="Configuration.FB.IDCounter" Value="5" />
+  <Identification Standard="61499-2" />
+  <VersionInfo Organization="nxtControl GmBH" Version="0.0" Author="valeriy" Date="7/14/2023" Remarks="template" />
+  <InterfaceList>
+    <Sockets>
+      <AdapterDeclaration Name="WP" Type="BoolAdp" Namespace="Main" x="340" y="420" />
+      <AdapterDeclaration Name="CLR" Type="BoolAdp" Namespace="Main" x="340" y="960" />
+    </Sockets>
+    <Plugs>
+      <AdapterDeclaration Name="ActSens" Type="AdapterCyl" Namespace="Main" x="1880" y="300" />
+      <AdapterDeclaration Name="IL" Type="BoolAdp" Namespace="Main" x="2280" y="1060" />
+    </Plugs>
+  </InterfaceList>
+  <FBNetwork>
+    <FB ID="5" UID="1" Name="Main" Type="CylControlIL" x="1200" y="300" Namespace="Main" />
+    <EventConnections>
+      <Connection Source="WP.CNF" Destination="Main.REQ" dx1="253.7709">
+        <AvoidsNodes>false</AvoidsNodes>
+      </Connection>
+      <Connection Source="Main.INITO" Destination="ActSens.INITO" />
+      <Connection Source="Main.CNF" Destination="ActSens.CNF" />
+      <Connection Source="Main.INITO" Destination="WP.INIT" dx1="129.2084" dx2="30" dy="-200">
+        <AvoidsNodes>false</AvoidsNodes>
+      </Connection>
+      <Connection Source="ActSens.REQ" Destination="Main.REQ" dx1="93.771" dx2="240" dy="-200">
+        <AvoidsNodes>false</AvoidsNodes>
+      </Connection>
+      <Connection Source="ActSens.INIT" Destination="Main.INIT" dx1="43.771" dx2="30" dy="-110" />
+      <Connection Source="CLR.CNF" Destination="Main.REQ" dx1="93.77087">
+        <AvoidsNodes>false</AvoidsNodes>
+      </Connection>
+      <Connection Source="Main.CNF" Destination="IL.CNF" dx1="159.2084">
+        <AvoidsNodes>false</AvoidsNodes>
+      </Connection>
+    </EventConnections>
+    <DataConnections>
+      <Connection Source="WP.DO1" Destination="Main.Start">
+        <AvoidsNodes>false</AvoidsNodes>
+      </Connection>
+      <Connection Source="Main.FWD" Destination="ActSens.DO1" />
+      <Connection Source="Main.RETR" Destination="ActSens.DO2" />
+      <Connection Source="ActSens.DI2" Destination="Main.End" dx1="43.771" dx2="30" dy="260">
+        <AvoidsNodes>false</AvoidsNodes>
+      </Connection>
+      <Connection Source="ActSens.DI1" Destination="Main.Home" dx1="73.771" dx2="60" dy="360">
+        <AvoidsNodes>false</AvoidsNodes>
+      </Connection>
+      <Connection Source="CLR.DO1" Destination="Main.CLR" dx1="193.7709">
+        <AvoidsNodes>false</AvoidsNodes>
+      </Connection>
+      <Connection Source="Main.STOPD" Destination="IL.DO1" dx1="79.20837">
+        <AvoidsNodes>false</AvoidsNodes>
+      </Connection>
+    </DataConnections>
+  </FBNetwork>
+</FBType>

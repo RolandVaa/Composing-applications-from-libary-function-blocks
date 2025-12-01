@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CompileFileList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://tempuri.org/DeploySnapshot.xsd">
+  <FileItem Name="Main#CylControlIL.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>1997AF59FCD5172FD</Hash>
+  </FileItem>
+  <FileItem Name="Main#InputChannelV2BOOL.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>22C5139151B8074F</Hash>
+  </FileItem>
+  <FileItem Name="Main#OutputChannelV2BOOL.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>219AD861277E1EE44</Hash>
+  </FileItem>
+  <FileItem Name="Main#ChangeDetect.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>209B78D6B227CF7AD</Hash>
+  </FileItem>
+  <FileItem Name="Main#ConvertToForce.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>172D070BB06330536</Hash>
+  </FileItem>
+  <FileItem Name="Main#CylControl.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>979F90BAA44E5D96</Hash>
+  </FileItem>
+  <FileItem Name="Main#InRange.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>93138E4B12E50B91</Hash>
+  </FileItem>
+  <FileItem Name="Main#integEC.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>862BFD3D70623F5</Hash>
+  </FileItem>
+  <FileItem Name="Main#ValveControl.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>89988A62322EEC46</Hash>
+  </FileItem>
+  <FileItem Name="Main#CROSSCOMM_PEER_195C19FF067434822.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>117FEE6BC2C77C262</Hash>
+  </FileItem>
+  <FileItem Name="Main#CROSSCOMM_PEER_7809690FA4BAE57E.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>22698A622D5DF9191</Hash>
+  </FileItem>
+  <FileItem Name="Main#CROSSCOMM_SENDER_2210DD10965A92ADC.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>1060E07FD15F05FF</Hash>
+  </FileItem>
+  <FileItem Name="Main#CROSSCOMM_SENDER_45FE03D7848F2EB2.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>415130E49B6E53D0</Hash>
+  </FileItem>
+  <FileItem Name="Main#AdapterCyl.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>434EF20287F5EF95</Hash>
+  </FileItem>
+  <FileItem Name="Main#AdpChan.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>16407E3F6214F04E3</Hash>
+  </FileItem>
+  <FileItem Name="Main#BoolAdp.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>166D52A9108C23456</Hash>
+  </FileItem>
+  <FileItem Name="Main#BUTTONAdp.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>1810DE725A883AE26</Hash>
+  </FileItem>
+  <FileItem Name="Main#BUTTONAdp_HMI.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>1816788345D30E2C8</Hash>
+  </FileItem>
+  <FileItem Name="Main#BUTTONChan.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>187430AA078FAE31C</Hash>
+  </FileItem>
+  <FileItem Name="Main#BUTTONChan_HMI.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>107BB40BBEC71E54D</Hash>
+  </FileItem>
+  <FileItem Name="Main#ChanRcvBool.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>723009216686C5C0</Hash>
+  </FileItem>
+  <FileItem Name="Main#ChanSendBool.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>418C7EFCC1B9499B</Hash>
+  </FileItem>
+  <FileItem Name="Main#CylControlAdp.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>28FA8B5C210316B7</Hash>
+  </FileItem>
+  <FileItem Name="Main#CylControlAdpOL.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>21074907E9BAB65FD</Hash>
+  </FileItem>
+  <FileItem Name="Main#CylControlChan.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>943DE02BA32E1FE7</Hash>
+  </FileItem>
+  <FileItem Name="Main#CylControlChanOL.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>23158E0E2B7CB9902</Hash>
+  </FileItem>
+  <FileItem Name="Main#CylControlILAdpOL.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>17302076C2117EF5C</Hash>
+  </FileItem>
+  <FileItem Name="Main#CylControlILChanOL.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>71007BCE98DCF114</Hash>
+  </FileItem>
+  <FileItem Name="Main#HCylAdpOL.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>91FBEBC46528E86</Hash>
+  </FileItem>
+  <FileItem Name="Main#HCylAdpOL_HMI.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>107AF8DA437056B57</Hash>
+  </FileItem>
+  <FileItem Name="Main#HCylAdp.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>1828B10AB7366D5E9</Hash>
+  </FileItem>
+  <FileItem Name="Main#HCylAdp_HMI.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>92510A234656510D</Hash>
+  </FileItem>
+  <FileItem Name="Main#InputChannelAdptd.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>166855A6748FFC54</Hash>
+  </FileItem>
+  <FileItem Name="Main#OutputChannelAdptd.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>193A1C6CFE86D450C</Hash>
+  </FileItem>
+  <FileItem Name="Main#VCylAdpOL.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>9CD8CCA142E1323</Hash>
+  </FileItem>
+  <FileItem Name="Main#VCylAdpOL_HMI.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>61C476B539DC932D</Hash>
+  </FileItem>
+  <FileItem Name="Main#VCylAdp.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>247AC93E5F58F63E7</Hash>
+  </FileItem>
+  <FileItem Name="Main#VCylAdp_HMI.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>236BFBD5682A70031</Hash>
+  </FileItem>
+  <FileItem Name="Main#BUTTON.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>24187A4D54BB20925</Hash>
+  </FileItem>
+  <FileItem Name="Main#BUTTON_HMI.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>152CFFA7A516602D1</Hash>
+  </FileItem>
+  <FileItem Name="Main#HCylinderLS.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>78C0B94328B1DD39</Hash>
+  </FileItem>
+  <FileItem Name="Main#HCylinderLS_HMI.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>200D454F449EBB79C</Hash>
+  </FileItem>
+  <FileItem Name="Main#HCylinderSA.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>843F9881F15ECC8A</Hash>
+  </FileItem>
+  <FileItem Name="Main#HCylinderSA_HMI.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>161EFE3B1A5D1D15D</Hash>
+  </FileItem>
+  <FileItem Name="Main#HCylinder.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>376EC25C69AE0D2B</Hash>
+  </FileItem>
+  <FileItem Name="Main#HCylinder_HMI.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>4625484D446F0099</Hash>
+  </FileItem>
+  <FileItem Name="Main#PULSE.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>206D0AEB0757AB624</Hash>
+  </FileItem>
+  <FileItem Name="Main#Sensor.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>23440F840B78AC069</Hash>
+  </FileItem>
+  <FileItem Name="Main#Sensor_HMI.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>2294F967EB1548886</Hash>
+  </FileItem>
+  <FileItem Name="Main#Valve.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>122361B3756F3D203</Hash>
+  </FileItem>
+  <FileItem Name="Main#Valve_HMI.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>40A1416FB46E6143</Hash>
+  </FileItem>
+  <FileItem Name="Main#VCylinderLS.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>691C25A3B4BB6195</Hash>
+  </FileItem>
+  <FileItem Name="Main#VCylinderLS_HMI.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>2303946847F526BEA</Hash>
+  </FileItem>
+  <FileItem Name="Main#VCylinderSA.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>2070852C1D92C6921</Hash>
+  </FileItem>
+  <FileItem Name="Main#VCylinderSA_HMI.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>473C2B6D0629CE7C</Hash>
+  </FileItem>
+  <FileItem Name="Main#VCylinder.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>224C8EA48B95D7A5F</Hash>
+  </FileItem>
+  <FileItem Name="Main#VCylinder_HMI.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>206B2E260B92925B3</Hash>
+  </FileItem>
+  <FileItem Name="Main#COMM_ADAPTER_PLUG_PROXY_137D8FA9F791DEABB.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>652CEC27400860ED</Hash>
+  </FileItem>
+  <FileItem Name="Main#COMM_ADAPTER_SOCKET_PROXY_79152C3CB22C3086.bin" Library="Main" BuildSnapshot="{CDA58497-10F6-4680-9692-2A9074628567}" BaseSnapshot="{00000000-0000-0000-0000-000000000000}">
+    <Hash>88DFB4331C4303C</Hash>
+  </FileItem>
+</CompileFileList>

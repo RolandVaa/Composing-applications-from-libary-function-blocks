@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE FBType SYSTEM "../LibraryElement.dtd">
+<FBType Name="COMM_ADAPTER_SOCKET_PROXY_79152C3CB22C3086" Comment="Service Interface Function Block Type" Namespace="Main">
+  <Attribute Name="Configuration.GenericFBType.InterfaceParams" Value="Runtime.System#&lt;InterfaceList&gt;&#xD;&#xA;  &lt;Sockets&gt;&#xD;&#xA;    &lt;AdapterDeclaration Name=&quot;Out2&quot; Type=&quot;BoolAdp&quot; Namespace=&quot;Main&quot; /&gt;&#xD;&#xA;  &lt;/Sockets&gt;&#xD;&#xA;&lt;/InterfaceList&gt;" />
+  <Attribute Name="Configuration.FB.IDCounter" Value="0" />
+  <Identification Standard="61499-2" />
+  <VersionInfo Organization="nxtControl GmbH " Version="0.0" Author="bababen" Date="9/22/2017" Remarks="template" />
+  <CompilerInfo>
+    <Compiler Language="Cpp" Vendor="nxtControl" Product="builtin " Version="1.0" />
+  </CompilerInfo>
+  <InterfaceList>
+    <Sockets>
+      <AdapterDeclaration Name="Out2" Type="BoolAdp" Namespace="Main" />
+    </Sockets>
+  </InterfaceList>
+  <FBNetwork />
+</FBType>

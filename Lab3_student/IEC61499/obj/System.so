@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE System SYSTEM "../LibraryElement.dtd">
+<System Name="System" Comment="System Configuration">
+  <Attribute Name="System.Device.FolderPath" Value="DEV1,DEV2,DEV3,DEV4,DEV5,DEV6" />
+  <Identification Standard="61499-1" />
+  <VersionInfo Organization="nxtControl GmbH" Version="0.0" Author="cheyan" Date="9/26/2014" />
+  <Application ID="22E911E0CC1A7E16" Name="APP1">
+    <SubAppNetwork>
+      <FB ID="C9E93D6C0580E7DF" Name="VCylinder" Type="VCylinderLS" x="2640" y="1440" Namespace="Main" />
+      <FB ID="485EAA93DA44BD81" Name="HCylinder" Type="HCylinderLS" x="2640" y="700" Namespace="Main" />
+      <FB ID="E9EBEFFB92AD9755" Name="InsertWP" Type="BUTTON" x="780" y="1040" Namespace="Main">
+        <Parameter Name="LABEL" Value="'WP'" />
+        <Parameter Name="QI" Value="TRUE" />
+      </FB>
+      <FB ID="B42A50B01C62D03C" Name="HCtl" Type="CylControl" x="1740" y="700" Namespace="Main" />
+      <FB ID="78964890B777530C" Name="VCtl" Type="CylControl" x="1720" y="1400" Namespace="Main" />
+      <EventConnections>
+        <Connection Source="InsertWP.INITO" Destination="HCtl.INIT" dx1="43.396" />
+        <Connection Source="InsertWP.IND" Destination="HCtl.REQ" dx1="70" />
+        <Connection Source="InsertWP.IND" Destination="VCtl.REQ" dx1="33.396">
+          <AvoidsNodes>false</AvoidsNodes>
+        </Connection>
+        <Connection Source="HCylinder.CNF" Destination="HCtl.REQ" dx1="47.771" dx2="30" dy="-170" />
+        <Connection Source="HCylinder.INITO" Destination="VCtl.INIT" dx1="157.771" dx2="50" dy="520">
+          <AvoidsNodes>false</AvoidsNodes>
+        </Connection>
+        <Connection Source="VCylinder.CNF" Destination="VCtl.REQ" dx1="47.771" dx2="30" dy="-210" />
+        <Connection Source="HCtl.INITO" Destination="HCylinder.INIT" />
+        <Connection Source="HCtl.CNF" Destination="HCylinder.REQ" />
+        <Connection Source="VCtl.INITO" Destination="VCylinder.INIT" dx1="40.04175" />
+        <Connection Source="VCtl.CNF" Destination="VCylinder.REQ" dx1="40.04175" />
+      </EventConnections>
+      <DataConnections>
+        <Connection Source="HCtl.FWD" Destination="HCylinder.EXTEND" />
+        <Connection Source="HCtl.RETR" Destination="HCylinder.RETRACT" />
+        <Connection Source="HCylinder.RETRACTED" Destination="HCtl.Home" dx1="77.771" dx2="60" dy="220">
+          <AvoidsNodes>false</AvoidsNodes>
+        </Connection>
+        <Connection Source="HCylinder.EXTENDED" Destination="HCtl.End" dx1="47.771" dx2="30" dy="120">
+          <AvoidsNodes>false</AvoidsNodes>
+        </Connection>
+        <Connection Source="InsertWP.VAL" Destination="HCtl.Start" dx1="90" />
+        <Connection Source="InsertWP.VAL" Destination="VCtl.Start" dx1="43.396" />
+        <Connection Source="VCylinder.RETRACTED" Destination="VCtl.Home" dx1="157.771" dx2="100" dy="280">
+          <AvoidsNodes>false</AvoidsNodes>
+        </Connection>
+        <Connection Source="VCylinder.EXTENDED" Destination="VCtl.End" dx1="90" dx2="50" dy="160">
+          <AvoidsNodes>false</AvoidsNodes>
+        </Connection>
+        <Connection Source="VCtl.FWD" Destination="VCylinder.EXTEND" dx1="40.04175" />
+        <Connection Source="VCtl.RETR" Destination="VCylinder.RETRACT" dx1="40.04175" />
+      </DataConnections>
+    </SubAppNetwork>
+  </Application>
+  <Application ID="FEDB141322F23008" Name="APP2">
+    <SubAppNetwork>
+      <FB ID="10274C7013859562" Name="BUTTONAdp" Type="BUTTONAdp" x="760" y="1060" Namespace="Main" />
+      <FB ID="9A62E0F5AB963F37" Name="VCtl2" Type="CylControlAdp" x="1560" y="1460" Namespace="Main" />
+      <FB ID="51EA7A35ED2DD7EC" Name="HCtl2" Type="CylControlAdp" x="1560" y="680" Namespace="Main" />
+      <FB ID="9700A366F3D9D61C" Name="VCylAdp" Type="VCylAdp" x="2540" y="1460" Namespace="Main" />
+      <FB ID="99365EBE0DEFD631" Name="HCylAdp" Type="HCylAdp" x="2560" y="680" Namespace="Main" />
+      <AdapterConnections>
+        <Connection Source="BUTTONAdp.Out1" Destination="HCtl2.WP" dx1="40" />
+        <Connection Source="HCylAdp.Sens" Destination="HCtl2.Sensors" dx1="40" dx2="30" dy="150" />
+        <Connection Source="HCtl2.Actuators" Destination="HCylAdp.Act" />
+        <Connection Source="BUTTONAdp.Out2" Destination="VCtl2.WP" dx1="40" />
+        <Connection Source="VCylAdp.Sens" Destination="VCtl2.Sensors" dx1="40" dx2="30" dy="150" />
+        <Connection Source="VCtl2.Actuators" Destination="VCylAdp.Act" />
+      </AdapterConnections>
+    </SubAppNetwork>
+  </Application>
+  <Application ID="8FEEF8E7820A0810" Name="APP3">
+    <SubAppNetwork>
+      <FB ID="3708C0B4E3BD724C" Name="WP3" Type="BUTTONAdp" x="860" y="1100" Namespace="Main" />
+      <FB ID="FB50B5D6A91C26AE" Name="HCtl3" Type="CylControlAdpOL" x="1880" y="940" Namespace="Main" />
+      <FB ID="ED0E1AD0CD13EE48" Name="VCtl3" Type="CylControlAdpOL" x="1880" y="1380" Namespace="Main" />
+      <FB ID="B94E26697E57ABF5" Name="HCylAdpOL" Type="HCylAdpOL" x="2640" y="940" Namespace="Main" />
+      <FB ID="FC6F0F19FB040A17" Name="VCylAdpOL" Type="VCylAdpOL" x="2640" y="1380" Namespace="Main" />
+      <AdapterConnections>
+        <Connection Source="WP3.Out1" Destination="HCtl3.WP" dx1="40" />
+        <Connection Source="HCtl3.ActSens" Destination="HCylAdpOL.ActSens" />
+        <Connection Source="WP3.Out2" Destination="VCtl3.WP" dx1="40" />
+        <Connection Source="VCtl3.ActSens" Destination="VCylAdpOL.ActSens" />
+      </AdapterConnections>
+    </SubAppNetwork>
+  </Application>
+  <Device ID="2e2f39c5-8c49-4381-8a71-a9e62b9c8b65" Name="DEV1" Type="Soft_dPAC" x="540.5885" y="1611.854" Namespace="SE.DPAC">
+    <Resource ID="D2608338511EDA20" Name="RES0" Type="EMB_RES_ECO" Namespace="Runtime.Management">
+      <FBNetwork>
+        <FB ID="66AC6E84BB7C1105" Name="HCtl" Type="CylControl" x="1740" y="700" Namespace="Main" />
+        <FB ID="F64E55A305C62C1A" Name="HCylinder" Type="HCylinderLS" x="2640" y="700" Namespace="Main" />
+        <FB ID="58C6642B4B8FE5DC" Name="InsertWP" Type="BUTTON" x="800" y="700" Namespace="Main">
+          <Parameter Name="LABEL" Value="'WP'" />
+          <Parameter Name="QI" Value="TRUE" />
+        </FB>
+        <FB ID="C3F1E643DB5C41FE" Name="CHAN_DEV2_RES0" Type="COMM_CHANN_DESC" x="500" y="300" Namespace="Runtime.System">
+          <Attribute Name="Endpoint.Port" Value="51300" />
+          <Parameter Name="PEERNAME" Value="'DEV2.RES0'" />
+        </FB>
+        <EventConnections>
+          <Connection Source="HCylinder.CNF" Destination="HCtl.REQ" dx1="47.771" dx2="30" dy="-170" />
+          <Connection Source="HCtl.INITO" Destination="HCylinder.INIT" />
+          <Connection Source="HCtl.CNF" Destination="HCylinder.REQ" />
+          <Connection Source="InsertWP.INITO" Destination="HCtl.INIT" />
+          <Connection Source="InsertWP.IND" Destination="HCtl.REQ" />
+          <Connection Source="START.COLD" Destination="InsertWP.INIT" dx1="48.60425" />
+        </EventConnections>
+        <DataConnections>
+          <Connection Source="HCtl.FWD" Destination="HCylinder.EXTEND" />
+          <Connection Source="HCtl.RETR" Destination="HCylinder.RETRACT" />
+          <Connection Source="HCylinder.RETRACTED" Destination="HCtl.Home" dx1="77.771" dx2="60" dy="220">
+            <AvoidsNodes>false</AvoidsNodes>
+          </Connection>
+          <Connection Source="HCylinder.EXTENDED" Destination="HCtl.End" dx1="47.771" dx2="30" dy="120">
+            <AvoidsNodes>false</AvoidsNodes>
+          </Connection>
+          <Connection Source="InsertWP.VAL" Destination="HCtl.Start" dx1="123.3959" />
+        </DataConnections>
+      </FBNetwork>
+    </Resource>
+    <FBNetwork />
+  </Device>
+  <Device ID="0003707f-80c8-4e3c-839b-2f7dea35bce4" Name="DEV2" Type="Soft_dPAC" x="540.5885" y="2191.854" Namespace="SE.DPAC">
+    <Resource ID="38D57D982DE98F2A" Name="RES0" Type="EMB_RES_ECO" Namespace="Runtime.Management">
+      <FBNetwork>
+        <FB ID="E1185868BF48E3A2" Name="VCtl" Type="CylControl" x="1720" y="1400" Namespace="Main" />
+        <FB ID="45AAE8AD02FCC8CC" Name="VCylinder" Type="VCylinderLS" x="2640" y="1440" Namespace="Main" />
+        <FB ID="D776CDE836C3DD4" Name="CHAN_DEV1_RES0" Type="COMM_CHANN_DESC" x="500" y="300" Namespace="Runtime.System">
+          <Attribute Name="Endpoint.Port" Value="51301" />
+          <Parameter Name="PEERNAME" Value="'DEV1.RES0'" />
+        </FB>
+        <EventConnections>
+          <Connection Source="VCylinder.CNF" Destination="VCtl.REQ" dx1="50" dx2="150" dy="-210" />
+          <Connection Source="VCtl.INITO" Destination="VCylinder.INIT" dx1="100.0417" />
+          <Connection Source="VCtl.CNF" Destination="VCylinder.REQ" dx1="80.04175" />
+          <Connection Source="START.COLD" Destination="VCtl.INIT" dx1="48.60419" />
+        </EventConnections>
+        <DataConnections>
+          <Connection Source="VCylinder.RETRACTED" Destination="VCtl.Home" dx1="157.771" dx2="100" dy="280">
+            <AvoidsNodes>false</AvoidsNodes>
+          </Connection>
+          <Connection Source="VCylinder.EXTENDED" Destination="VCtl.End" dx1="90" dx2="50" dy="160">
+            <AvoidsNodes>false</AvoidsNodes>
+          </Connection>
+          <Connection Source="VCtl.FWD" Destination="VCylinder.EXTEND" dx1="60.04175" />
+          <Connection Source="VCtl.RETR" Destination="VCylinder.RETRACT" dx1="40.04175" />
+        </DataConnections>
+      </FBNetwork>
+    </Resource>
+    <FBNetwork />
+  </Device>
+  <Device ID="9330e2a3-4d1f-4358-91c9-1d08404982de" Name="DEV3" Type="Soft_dPAC" x="540.5885" y="2771.854" Namespace="SE.DPAC">
+    <Resource ID="BA5C806ED0B3FFD0" Name="RES0" Type="EMB_RES_ECO" Namespace="Runtime.Management">
+      <FBNetwork>
+        <FB ID="FA6FE54EC7244C29" Name="BUTTONAdp" Type="BUTTONAdp" x="760" y="1060" Namespace="Main" />
+        <FB ID="7D331CB86AD83553" Name="HCtl2" Type="CylControlAdp" x="1560" y="680" Namespace="Main" />
+        <FB ID="AFC5445E538A591F" Name="HCylAdp" Type="HCylAdp" x="2560" y="680" Namespace="Main" />
+        <FB ID="356CFE251380C67A" Name="CHAN_DEV4_RES0" Type="COMM_CHANN_DESC" x="500" y="300" Namespace="Runtime.System">
+          <Attribute Name="Endpoint.Port" Value="51302" />
+          <Parameter Name="PEERNAME" Value="'DEV4.RES0'" />
+        </FB>
+        <AdapterConnections>
+          <Connection Source="BUTTONAdp.Out1" Destination="HCtl2.WP" dx1="40" />
+          <Connection Source="HCylAdp.Sens" Destination="HCtl2.Sensors" dx1="40" dx2="30" dy="150" />
+          <Connection Source="HCtl2.Actuators" Destination="HCylAdp.Act" />
+        </AdapterConnections>
+      </FBNetwork>
+    </Resource>
+    <FBNetwork />
+  </Device>
+  <Device ID="2b8dd333-de43-4661-9606-d53568bd0989" Name="DEV4" Type="Soft_dPAC" x="540.5885" y="3351.854" Namespace="SE.DPAC">
+    <Resource ID="8CA4BBE7F914D382" Name="RES0" Type="EMB_RES_ECO" Namespace="Runtime.Management">
+      <FBNetwork>
+        <FB ID="6BBEFB01BF949973" Name="VCtl2" Type="CylControlAdp" x="1560" y="1460" Namespace="Main" />
+        <FB ID="AB93FEE078D11A10" Name="VCylAdp" Type="VCylAdp" x="2540" y="1460" Namespace="Main" />
+        <FB ID="D772B71C0F6DAC4" Name="CHAN_DEV3_RES0" Type="COMM_CHANN_DESC" x="500" y="300" Namespace="Runtime.System">
+          <Attribute Name="Endpoint.Port" Value="51303" />
+          <Parameter Name="PEERNAME" Value="'DEV3.RES0'" />
+        </FB>
+        <AdapterConnections>
+          <Connection Source="VCylAdp.Sens" Destination="VCtl2.Sensors" dx1="40" dx2="30" dy="150" />
+          <Connection Source="VCtl2.Actuators" Destination="VCylAdp.Act" />
+        </AdapterConnections>
+      </FBNetwork>
+    </Resource>
+    <FBNetwork />
+  </Device>
+  <Device ID="9dfb4721-59db-4a36-9188-0c797f5dddb4" Name="DEV5" Type="Soft_dPAC" x="540.5885" y="3931.854" Namespace="SE.DPAC">
+    <Resource ID="4DFDC7D9415B8420" Name="RES0" Type="EMB_RES_ECO" Namespace="Runtime.Management">
+      <FBNetwork>
+        <FB ID="15A534D51C75FACD" Name="WP3" Type="BUTTONAdp" x="860" y="1100" Namespace="Main" />
+        <FB ID="74E6282544FC5172" Name="HCtl3" Type="CylControlAdpOL" x="1880" y="940" Namespace="Main" />
+        <FB ID="80648D525EC52FA1" Name="HCylAdpOL" Type="HCylAdpOL" x="2640" y="940" Namespace="Main" />
+        <FB ID="87CCEE9D5E770CDC" Name="CHAN_DEV6_RES0" Type="COMM_CHANN_DESC" x="500" y="300" Namespace="Runtime.System">
+          <Attribute Name="Endpoint.Port" Value="51304" />
+          <Parameter Name="PEERNAME" Value="'DEV6.RES0'" />
+        </FB>
+        <AdapterConnections>
+          <Connection Source="WP3.Out1" Destination="HCtl3.WP" dx1="40" />
+          <Connection Source="HCtl3.ActSens" Destination="HCylAdpOL.ActSens" />
+        </AdapterConnections>
+      </FBNetwork>
+    </Resource>
+    <FBNetwork />
+  </Device>
+  <Device ID="8719ba5e-403b-41d0-bbaf-1d2b70bccd85" Name="DEV6" Type="Soft_dPAC" x="540.5885" y="4511.854" Namespace="SE.DPAC">
+    <Resource ID="BFB00314B32D140" Name="RES0" Type="EMB_RES_ECO" Namespace="Runtime.Management">
+      <FBNetwork>
+        <FB ID="27088FD028FD73A6" Name="VCtl3" Type="CylControlAdpOL" x="1880" y="1380" Namespace="Main" />
+        <FB ID="D775B81129C0F63A" Name="VCylAdpOL" Type="VCylAdpOL" x="2640" y="1380" Namespace="Main" />
+        <FB ID="B7778BF30EEC0FA5" Name="CHAN_DEV5_RES0" Type="COMM_CHANN_DESC" x="500" y="300" Namespace="Runtime.System">
+          <Attribute Name="Endpoint.Port" Value="51305" />
+          <Parameter Name="PEERNAME" Value="'DEV5.RES0'" />
+        </FB>
+        <AdapterConnections>
+          <Connection Source="VCtl3.ActSens" Destination="VCylAdpOL.ActSens" />
+        </AdapterConnections>
+      </FBNetwork>
+    </Resource>
+    <FBNetwork />
+  </Device>
+  <Mapping From="APP1.HCtl" To="DEV1.RES0" />
+  <Mapping From="APP1.HCylinder" To="DEV1.RES0" />
+  <Mapping From="APP1.InsertWP" To="DEV1.RES0" />
+  <Mapping From="APP1.VCtl" To="DEV2.RES0" />
+  <Mapping From="APP1.VCylinder" To="DEV2.RES0" />
+  <Mapping From="APP2.BUTTONAdp" To="DEV3.RES0" />
+  <Mapping From="APP2.HCtl2" To="DEV3.RES0" />
+  <Mapping From="APP2.HCylAdp" To="DEV3.RES0" />
+  <Mapping From="APP2.VCtl2" To="DEV4.RES0" />
+  <Mapping From="APP2.VCylAdp" To="DEV4.RES0" />
+  <Mapping From="APP3.WP3" To="DEV5.RES0" />
+  <Mapping From="APP3.HCtl3" To="DEV5.RES0" />
+  <Mapping From="APP3.HCylAdpOL" To="DEV5.RES0" />
+  <Mapping From="APP3.VCtl3" To="DEV6.RES0" />
+  <Mapping From="APP3.VCylAdpOL" To="DEV6.RES0" />
+  <Segment Name="SEGMENT1" Type="localhost" x="980" y="1080" dx1="1200" />
+</System>

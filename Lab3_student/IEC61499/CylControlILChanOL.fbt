@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE FBType SYSTEM "../LibraryElement.dtd">
+<FBType GUID="ce0a657e-ec88-41c2-a1e3-4f478742ad8d" Name="CylControlILChanOL" Comment="Composite Function Block Type" Namespace="Main">
+  <Attribute Name="Configuration.FB.IDCounter" Value="13" />
+  <Identification Standard="61499-2" />
+  <VersionInfo Organization="nxtControl GmBH" Version="0.0" Author="valeriy" Date="7/14/2023" Remarks="template" />
+  <InterfaceList>
+    <AdapterInputs>
+      <Adapter Name="CI" Type="AdpChan" Namespace="Main" />
+      <Adapter Name="CLR" Type="BoolAdp" Namespace="Main" />
+    </AdapterInputs>
+    <AdapterOutputs>
+      <Adapter Name="ActSens" Type="AdapterCyl" Namespace="Main" />
+      <Adapter Name="IL" Type="BoolAdp" Namespace="Main" />
+    </AdapterOutputs>
+  </InterfaceList>
+  <FBNetwork>
+    <FB ID="13" UID="8" Name="CTL" Type="CylControlILAdpOL" x="1320" y="160" Namespace="Main" />
+    <FB ID="9" Name="ChanRcv" Type="ChanRcvBool" x="740" y="160" Namespace="Main" />
+    <Input Name="CI" x="40" y="312" Type="Adapter" />
+    <Input Name="CLR" x="40" y="552" Type="Adapter" />
+    <Output Name="IL" x="1960" y="552" Type="Adapter" />
+    <Output Name="ActSens" x="1920" y="312" Type="Adapter" />
+    <AdapterConnections>
+      <Connection Source="ChanRcv.DO1" Destination="CTL.WP" />
+      <Connection Source="CI" Destination="ChanRcv.CI" />
+      <Connection Source="CTL.ActSens" Destination="ActSens" />
+      <Connection Source="CLR" Destination="CTL.CLR" dx1="567.3125" />
+      <Connection Source="CTL.IL" Destination="IL" dx1="46.08337" />
+    </AdapterConnections>
+  </FBNetwork>
+</FBType>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE FBType SYSTEM "../LibraryElement.dtd">
+<FBType GUID="da8d1e6c-48a7-4a65-978b-0204ddb9432d" Name="CylControlChan" Comment="Composite Function Block Type" Namespace="Main">
+  <Attribute Name="Configuration.FB.IDCounter" Value="13" />
+  <Identification Standard="61499-2" />
+  <VersionInfo Organization="nxtControl GmBH" Version="0.0" Author="valeriy" Date="7/14/2023" Remarks="template" />
+  <InterfaceList>
+    <AdapterInputs>
+      <Adapter Name="Sens" Type="AdapterCyl" Namespace="Main" />
+      <Adapter Name="CI" Type="AdpChan" Namespace="Main" />
+    </AdapterInputs>
+    <AdapterOutputs>
+      <Adapter Name="Act" Type="AdapterCyl" Namespace="Main" />
+    </AdapterOutputs>
+  </InterfaceList>
+  <FBNetwork>
+    <FB ID="9" Name="ChanRcv" Type="ChanRcvBool" x="740" y="300" Namespace="Main" />
+    <FB ID="13" UID="8" Name="CTL" Type="CylControlAdp" x="1340" y="240" Namespace="Main" />
+    <Input Name="CI" x="60" y="452" Type="Adapter" />
+    <Input Name="Sens" x="40" y="152" Type="Adapter" />
+    <Output Name="Act" x="2120" y="392" Type="Adapter" />
+    <AdapterConnections>
+      <Connection Source="ChanRcv.DO1" Destination="CTL.WP" />
+      <Connection Source="CI" Destination="ChanRcv.CI" />
+      <Connection Source="CTL.Actuators" Destination="Act" />
+      <Connection Source="Sens" Destination="CTL.Sensors" dx1="505.6667" />
+    </AdapterConnections>
+  </FBNetwork>
+</FBType>

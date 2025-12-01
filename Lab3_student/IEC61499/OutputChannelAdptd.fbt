@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE FBType SYSTEM "../LibraryElement.dtd">
+<FBType GUID="687c4c3c-e30c-4af0-81c4-dca47f41b1e7" Name="OutputChannelAdptd" Comment="Composite Function Block Type" Namespace="Main">
+  <Attribute Name="Configuration.FB.IDCounter" Value="2" />
+  <Identification Standard="61499-2" />
+  <VersionInfo Organization="nxtControl GmbH" Version="0.0" Author="Atmojo" Date="09/10/2018" Remarks="template" />
+  <InterfaceList>
+    <EventInputs>
+      <Event Name="INIT" />
+      <Event Name="REQ" Comment="Normal Execution Request">
+        <With Var="DataIn" />
+        <With Var="HasData" />
+        <With Var="WithCSIFB" />
+      </Event>
+      <Event Name="Preempt" />
+      <Event Name="ConfirmedTransmission" />
+    </EventInputs>
+    <EventOutputs>
+      <Event Name="ChannelIsSent" Comment="Initialization Confirm" />
+      <Event Name="ChannelPreempted" Comment="Execution Confirmation" />
+    </EventOutputs>
+    <InputVars>
+      <VarDeclaration Name="DataIn" Type="BOOL" />
+      <VarDeclaration Name="HasData" Type="BOOL" />
+      <VarDeclaration Name="WithCSIFB" Type="BOOL" />
+    </InputVars>
+  </InterfaceList>
+  <FBNetwork>
+    <Input Name="REQ" x="12" y="72" Type="Event" />
+    <Input Name="ConfirmedTransmission" x="12" y="192" Type="Event" />
+    <Input Name="DataIn" x="12" y="132" Type="Data" />
+    <Input Name="HasData" x="12" y="252" Type="Data" />
+    <Input Name="WithCSIFB" x="12" y="312" Type="Data" />
+    <Input Name="Preempt" x="12" y="12" Type="Event" />
+    <Input Name="INIT" x="12" y="372" Type="Event" />
+    <Output Name="ChannelIsSent" x="2118.229" y="11.85417" Type="Event" />
+    <Output Name="ChannelPreempted" x="2144.313" y="71.85417" Type="Event" />
+  </FBNetwork>
+</FBType>

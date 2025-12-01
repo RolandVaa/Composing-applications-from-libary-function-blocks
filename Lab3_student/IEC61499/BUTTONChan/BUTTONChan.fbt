@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE FBType SYSTEM "../LibraryElement.dtd">
+<FBType GUID="95c23957-607e-49f3-9725-1042fe696cf7" Name="BUTTONChan" Comment="Composite Function Block Type" Namespace="Main">
+  <Attribute Name="Configuration.FB.IDCounter" Value="9" />
+  <Identification Standard="61499-2" />
+  <VersionInfo Organization="nxtControl GmbH" Version="0.0" Author="vvya002" Date="7/20/2013" Remarks="template" />
+  <InterfaceList>
+    <InputVars>
+      <VarDeclaration Name="LABEL" Type="STRING" />
+    </InputVars>
+    <AdapterOutputs>
+      <Adapter Name="OutA" Type="AdpChan" Namespace="Main" />
+      <Adapter Name="OutB" Type="AdpChan" Namespace="Main" />
+    </AdapterOutputs>
+  </InterfaceList>
+  <FBNetwork>
+    <FB ID="7" Name="FB1" Type="BUTTONAdp" x="800" y="440" Namespace="Main" />
+    <FB ID="8" Name="FB2" Type="ChanSendBool" x="1480" y="440" Namespace="Main" />
+    <FB ID="9" Name="FB3" Type="ChanSendBool" x="1480" y="800" Namespace="Main" />
+    <Input Name="LABEL" x="60" y="592" Type="Data" />
+    <Output Name="OutA" x="2160" y="592" Type="Adapter" />
+    <Output Name="OutB" x="2180" y="952" Type="Adapter" />
+    <DataConnections>
+      <Connection Source="LABEL" Destination="FB1.LABEL" />
+    </DataConnections>
+    <AdapterConnections>
+      <Connection Source="FB1.Out1" Destination="FB2.DI" />
+      <Connection Source="FB1.Out2" Destination="FB3.DI" dx1="40" />
+      <Connection Source="FB2.CO" Destination="OutA" />
+      <Connection Source="FB3.CO" Destination="OutB" />
+    </AdapterConnections>
+  </FBNetwork>
+</FBType>

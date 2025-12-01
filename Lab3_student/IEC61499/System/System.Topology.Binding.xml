@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Bindings>
+  <LogicalDeviceBinding LogicalDeviceId="2e2f39c5-8c49-4381-8a71-a9e62b9c8b65" PhysicalDeviceId="">
+    <LogicalDeviceService ServiceId="F7C90C9D-BD8B-4D0B-B8DE-C659AF6EABCC" LogicalPort="51499" />
+    <LogicalDeviceService ServiceId="32B24F96-50F3-429E-9586-58A14DEB5DD5" LogicalPort="51496" />
+  </LogicalDeviceBinding>
+  <LogicalDeviceBinding LogicalDeviceId="0003707f-80c8-4e3c-839b-2f7dea35bce4" PhysicalDeviceId="">
+    <LogicalDeviceService ServiceId="F7C90C9D-BD8B-4D0B-B8DE-C659AF6EABCC" LogicalPort="51443" />
+    <LogicalDeviceService ServiceId="32B24F96-50F3-429E-9586-58A14DEB5DD5" LogicalPort="51497" />
+  </LogicalDeviceBinding>
+  <LogicalDeviceBinding LogicalDeviceId="9330e2a3-4d1f-4358-91c9-1d08404982de" PhysicalDeviceId="">
+    <LogicalDeviceService ServiceId="F7C90C9D-BD8B-4D0B-B8DE-C659AF6EABCC" LogicalPort="51444" />
+    <LogicalDeviceService ServiceId="32B24F96-50F3-429E-9586-58A14DEB5DD5" LogicalPort="51498" />
+  </LogicalDeviceBinding>
+  <LogicalDeviceBinding LogicalDeviceId="2b8dd333-de43-4661-9606-d53568bd0989" PhysicalDeviceId="">
+    <LogicalDeviceService ServiceId="F7C90C9D-BD8B-4D0B-B8DE-C659AF6EABCC" LogicalPort="51445" />
+    <LogicalDeviceService ServiceId="32B24F96-50F3-429E-9586-58A14DEB5DD5" LogicalPort="51500" />
+  </LogicalDeviceBinding>
+  <LogicalDeviceBinding LogicalDeviceId="9dfb4721-59db-4a36-9188-0c797f5dddb4" PhysicalDeviceId="">
+    <LogicalDeviceService ServiceId="F7C90C9D-BD8B-4D0B-B8DE-C659AF6EABCC" LogicalPort="51446" />
+    <LogicalDeviceService ServiceId="32B24F96-50F3-429E-9586-58A14DEB5DD5" LogicalPort="51501" />
+  </LogicalDeviceBinding>
+  <LogicalDeviceBinding LogicalDeviceId="8719ba5e-403b-41d0-bbaf-1d2b70bccd85" PhysicalDeviceId="">
+    <LogicalDeviceService ServiceId="F7C90C9D-BD8B-4D0B-B8DE-C659AF6EABCC" LogicalPort="51447" />
+    <LogicalDeviceService ServiceId="32B24F96-50F3-429E-9586-58A14DEB5DD5" LogicalPort="51502" />
+  </LogicalDeviceBinding>
+</Bindings>

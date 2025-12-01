@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE FBType SYSTEM "../LibraryElement.dtd">
+<FBType GUID="fcb2ceff-b06c-4b27-9864-8ef5cdc072b3" Name="ChanRcvBool" Comment="Composite Function Block Type" Namespace="Main">
+  <Attribute Name="Configuration.FB.IDCounter" Value="4" />
+  <Identification Standard="61499-2" />
+  <VersionInfo Organization="nxtControl GmBH" Version="0.0" Author="vv263" Date="7/15/2023" Remarks="template" />
+  <InterfaceList>
+    <Sockets>
+      <AdapterDeclaration Name="CI" Type="AdpChan" Namespace="Main" x="960" y="780" />
+    </Sockets>
+    <Plugs>
+      <AdapterDeclaration Name="DO1" Type="BoolAdp" Namespace="Main" x="3320" y="800" />
+    </Plugs>
+  </InterfaceList>
+  <FBNetwork>
+    <FB ID="3" Name="Main" Type="InputChannelV2BOOL" x="1600" y="620" Namespace="Main">
+      <Parameter Name="WithCSIFB" Value="FALSE" />
+    </FB>
+    <EventConnections>
+      <Connection Source="Main.ChannelReceived" Destination="DO1.CNF" dx1="246.7292">
+        <AvoidsNodes>false</AvoidsNodes>
+      </Connection>
+      <Connection Source="Main.ChannelReceived" Destination="Main.REQ" dx1="246.7292" dx2="80" dy="-180">
+        <AvoidsNodes>false</AvoidsNodes>
+      </Connection>
+      <Connection Source="CI.EO2" Destination="Main.RcvReqChStUpd" dx1="120" />
+      <Connection Source="CI.EO1" Destination="Main.Partner_Statuses_Change" dx1="75.875" />
+      <Connection Source="Main.ReqChStUpd" Destination="CI.EI2" dx1="120" dx2="80" dy="-440">
+        <AvoidsNodes>false</AvoidsNodes>
+      </Connection>
+      <Connection Source="Main.update_statuses_to_partner" Destination="CI.EI1" dx1="26.72925" dx2="50" dy="-200">
+        <AvoidsNodes>false</AvoidsNodes>
+      </Connection>
+      <Connection Source="DO1.INIT" Destination="Main.INIT" dx1="43.77075" dx2="190" dy="-560">
+        <AvoidsNodes>false</AvoidsNodes>
+      </Connection>
+    </EventConnections>
+    <DataConnections>
+      <Connection Source="Main.DataOut" Destination="DO1.DO1" dx1="366.7292">
+        <AvoidsNodes>false</AvoidsNodes>
+      </Connection>
+      <Connection Source="CI.DO0" Destination="Main.DataIn" dx1="40" />
+      <Connection Source="CI.DO1" Destination="Main.Part_w_s" dx1="40" />
+      <Connection Source="CI.DO2" Destination="Main.Part_Preempted" dx1="105.875">
+        <AvoidsNodes>false</AvoidsNodes>
+      </Connection>
+      <Connection Source="CI.DO3" Destination="Main.Part_w_r" dx1="135.875" />
+      <Connection Source="Main.r_s_val" Destination="CI.DI1" dx1="206.7292" dx2="140" dy="420">
+        <AvoidsNodes>false</AvoidsNodes>
+      </Connection>
+      <Connection Source="Main.Preempted_val" Destination="CI.DI2" dx1="166.7292" dx2="100" dy="320">
+        <AvoidsNodes>false</AvoidsNodes>
+      </Connection>
+      <Connection Source="Main.r_r_val" Destination="CI.DI3" dx1="116.7292" dx2="30" dy="210" />
+    </DataConnections>
+  </FBNetwork>
+</FBType>
